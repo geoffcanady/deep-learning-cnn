@@ -7,8 +7,8 @@ This Deep Learning application is designed to classify images into two categorie
 
   **TODO:** test for
  - No hat, no sunglasses  
- - Has had *and* sunglasses
- - Script for image normalization (cropping, sizing, convert to b&w)
+ - Has hat *and* sunglasses
+ - Script for image normalization (cropping, sizing, possibly convert to greyscale)
 
 ### Features
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 #### Prepare your dataset:
 
-Ensure that your data is stored in the data directory with subfolders named hats and sunglasses for respective image classes.
+Ensure that your data is stored in the data directory with subfolders named `hats` and `sunglasses` for respective image classes.
 
 #### Train the model:
 
